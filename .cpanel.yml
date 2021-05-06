@@ -1,0 +1,5 @@
+---
+deployment:
+  task:
+  - export DEPLOYMENT-/home/kisscke/public_html/kis.sc.ke/cd-cpanel
+  - /bin/cp -a * $DEPLOYPATH
