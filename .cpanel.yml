@@ -1,5 +1,5 @@
 ---
 deployment:
-  task:
-  - export DEPLOYPATH=/home/kisscke/public_html/cd-cpanel
-  - /bin/cp -a * $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/kinderworld/public_html/cd-cpanel
+    - /bin/cp -a * $DEPLOYPATH
